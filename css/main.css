@@ -48,7 +48,7 @@ header{
 
 .box{
     color: gray;
-    height: 500px;
+    height: 450px;
     width: 300px;
     border: 8px solid #FF8181; 
     margin: 0 auto 0;
@@ -111,6 +111,12 @@ header{
     
 }
 
+.lowercase {
+    text-transform: lowercase;
+    font-size: .5em;
+    
+}
+
 
 
 @media only screen and (min-width: 20em){
@@ -120,11 +126,24 @@ header{
 
 @media only screen and (min-width: 30em){
     
+    .box {
+        height: 450px;    
+    }
     
     
 }
 
 @media only screen and (min-width: 40em) {
+    
+     .box {
+        height: 500px;    
+    }
+    
+    .icons {
+        margin: 1em 0 0;
+        
+        
+    }
     
     
 }
@@ -137,7 +156,11 @@ header{
 
 @media only screen and (min-width: 60em) {
     .icons {
-        margin: 0 auto 0;   
+        margin: .5em auto 0;   
+    }
+    
+    .box {
+     height: 525px;   
         
     }
     
