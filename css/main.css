@@ -58,8 +58,8 @@ header{
 }
 
 .box:hover{
-      background-color: rgba(64,64,64,0.5);
-    color: white;
+       background-color: rgba(255,129,129,0.2);
+
 }
 
 .ssd{
@@ -96,6 +96,54 @@ header{
     display: inline-block;
     
 }
+
+.behance {
+    height: 3em;  
+    margin: 2em 2em 0;
+}
+
+.icons {
+    list-style: none;
+    height: 3em;
+    display: inline-block;
+    padding: 0 2% 0;
+    margin: 1em 0 1em;
+    
+}
+
+
+
+@media only screen and (min-width: 20em){
+    
+
+}
+
+@media only screen and (min-width: 30em){
+    
+    
+    
+}
+
+@media only screen and (min-width: 40em) {
+    
+    
+}
+
+
+@media only screen and (min-width: 50em) {
+
+    
+}
+
+@media only screen and (min-width: 60em) {
+    .icons {
+        margin: 0 auto 0;   
+        
+    }
+    
+}
+
+
 
 
 
