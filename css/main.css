@@ -71,11 +71,29 @@ header{
     text-align: center;
 }
 
-.syd {
+.logo {
     height: 8em;   
-    margin: 1em auto 0; 
+    margin: 1em auto .5em; 
+    padding: 1em auto 1.5em;
     align-content: center;
     display: block;
+}
+
+
+
+@keyframes box-rotate {
+    0% {
+        transform: rotate(0deg);
+}
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.logo:hover {
+    animation: box-rotate .25s linear ; 
+
 }
 
 
