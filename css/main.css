@@ -196,6 +196,29 @@ header{
     
 }
 
+    
+    @media only screen and (min-width: 90em) {
+    .icons {
+        margin: .5em auto 0;   
+    }
+    
+    .box {
+     height: 560px;   
+        
+    }
+    
+    @media only screen and (min-width: 70em) {
+    .icons {
+        margin: .5em auto 0;   
+    }
+    
+    .box {
+     height: 525px;  
+        width: 375px;
+        height: 625px;
+        
+    }
+    
 
 
 
