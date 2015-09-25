@@ -25,8 +25,9 @@ body{
     
 }
 
-header{
+.header{
     display: block;   
+    background-color: pink;
 }
 
 .billboard {
