@@ -25,6 +25,72 @@ body{
     
 }
 
+@-webkit-keyframes colorshift {
+	0%   { color: #FFEBD6; }
+	25%  { color: #F5EBFF; }
+	50%  { color: #D6EBFF; }
+	75%  { color: #D6FFEB; }
+	100%  { color: #FFEBD6; }
+}
+@-moz-keyframes colorshift {
+	0%   { color: #FFEBD6; }
+	25%  { color: #F5EBFF; }
+	50%  { color: #D6EBFF; }
+	75%  { color: #D6FFEB; }
+	100%  { color: #FFEBD6; }
+}
+@-ms-keyframes colorshift {
+	0%   { color: #FFEBD6; }
+	25%  { color: #F5EBFF; }
+	50%  { color: #D6EBFF; }
+	75%  { color: #D6FFEB; }
+	100%  { color: #FFEBD6; }
+}
+@-o-keyframes colorshift {
+	0%   { color: #FFEBD6; }
+	25%  { color: #F5EBFF; }
+	50%  { color: #D6EBFF; }
+	75%  { color: #D6FFEB; }
+	100%  { color: #FFEBD6; }
+}
+
+@-webkit-keyframes colorshift {
+	0%   { background-color: #FFEBD6; }
+	25%  { background-color: #F5EBFF; }
+	50%  { background-color: #D6EBFF; }
+	75%  { background-color: #D6FFEB; }
+	100%  { background-color: #FFEBD6; }
+}
+@-moz-keyframes colorshift {
+	0%   { background-color: #FFEBD6; }
+	25%  { background-color: #F5EBFF; }
+	50%  { background-color: #D6EBFF; }
+	75%  { background-color: #D6FFEB; }
+	100%  { background-color: #FFEBD6; }
+}
+@-ms-keyframes colorshift {
+	0%   { background-color: #FFEBD6; }
+	25%  { background-color: #F5EBFF; }
+	50%  { background-color: #D6EBFF; }
+	75%  { background-color: #D6FFEB; }
+	100%  { background-color:#FFEBD6; }
+}
+@-o-keyframes colorshift {
+	0%   { background-color: #FFEBD6; }
+	25%  { background-color: #F5EBFF; }
+	50%  { background-color: #D6EBFF; }
+	75%  { background-color: #D6FFEB; }
+	100%  { background-color: #FFEBD6; }
+}
+
+.bg{
+    background-color:  color: #FFEBD6;
+	-webkit-animation: colorshift 25s infinite;
+	-moz-animation:    colorshift 25s infinite;
+ 	-ms-animation:     colorshift 25s infinite;
+ 	-o-animation:      colorshift 25s infinite;
+}
+
 .header{
     display: block;   
     background-color: pink;
