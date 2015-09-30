@@ -25,6 +25,8 @@ body{
     
 }
 
+/*
+
 @-webkit-keyframes colorshift {
 	0%   { color: #FFEBD6; }
 	25%  { color: #F5EBFF; }
@@ -90,6 +92,8 @@ body{
  	-ms-animation:     colorshift 25s infinite;
  	-o-animation:      colorshift 25s infinite;
 }
+
+*/
 
 .header{
     display: block;   
@@ -195,6 +199,8 @@ body{
     margin: .5em 0 1em;
     
 }
+
+
 
 .lowercase {
     text-transform: lowercase;
