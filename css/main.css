@@ -137,8 +137,8 @@ body{
 */
 
 .ssd{
-    font-size: 2em;
-    font-weight: 150;
+    font-size: 1.5em;
+    font-weight: 100;
     line-height: 1.1em;
     position: absolute;
     align-content: center;
@@ -172,7 +172,7 @@ body{
 
 
 .hr{
-    margin: 5em auto  0;
+    margin: 2.5em auto  0;
     background-color: #aaaaaa;
     height: .25em;
     width: 75%;
@@ -258,7 +258,7 @@ body{
         
     }
     
-    @media only screen and (min-width: 70em) {
+@media only screen and (min-width: 70em) {
     .icons {
         margin: .5em auto 0;   
     }
@@ -273,7 +273,7 @@ body{
 }
 
     
-    @media only screen and (min-width: 90em) {
+@media only screen and (min-width: 80em) {
     .icons {
         margin: .5em auto 0;   
     }
@@ -282,8 +282,9 @@ body{
      height: 560px;   
         
     }
+}
     
-    @media only screen and (min-width: 70em) {
+@media only screen and (min-width: 90em) {
     .icons {
         margin: .5em auto 0;   
     }
@@ -294,6 +295,8 @@ body{
         height: 625px;
         
     }
+    
+}
     
 
 
