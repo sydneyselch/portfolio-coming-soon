@@ -166,7 +166,7 @@ body{
 }
 
 .logo:hover {
-    animation: box-rotate .25s linear ; 
+    animation: box-rotate .5s linear ; 
 
 }
 
@@ -203,6 +203,29 @@ body{
     
 }
 
+
+.donut{
+    height: 200px;
+    width: 200px;
+    margin: 2em auto 0;
+    position: absolute;
+    top:20%;
+    left:35%;
+    display: none;
+
+    
+}
+
+.donut-holder{
+    margin: 0 auto 0; 
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 8px solid #aaaaaa;
+    display: none;
+    
+    
+}
 
 
 .lowercase {
